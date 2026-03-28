@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://bhyhxa4hipa0g"]
 
-[ext_resource type="Script" path="res://scenes/levels/fase_animais/LevelManager2.gd" id="1_watms"]
+[ext_resource type="Script" path="res://scenes/levels/fase_animais/LevelManager.gd" id="1_watms"]
 [ext_resource type="Texture2D" uid="uid://cp2lwfpvrbsd2" path="res://assets/backgrounds/background 1.png" id="2_cujgy"]
 [ext_resource type="Script" path="res://scenes/shared/Camera2D.gd" id="3_1pqcn"]
 [ext_resource type="PackedScene" uid="uid://ta7c1b7bcp2e" path="res://scenes/characters/fox.tscn" id="4_4y16y"]
@@ -470,6 +470,7 @@ border_color = Color(0.482353, 0.270588, 0.188235, 1)
 [node name="LevelManager" type="Node" parent="."]
 unique_name_in_owner = true
 script = ExtResource("1_watms")
+level_index = 2
 
 [node name="SceneObjects" type="Node" parent="."]
 
