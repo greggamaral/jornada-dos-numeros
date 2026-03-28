@@ -19,7 +19,7 @@ func _ready() -> void:
 	if Dialogic.current_timeline != null:
 		return
 	$AnimationPlayer.play("new_animation")
-	await get_tree().create_timer(2).timeout
+	await AutoloadScene.wait(2)
 	$BauIntroBlurry.set_visible(true)
 	$Wizard2.play("new_animation")
 	$Wizard.set_visible(true)
