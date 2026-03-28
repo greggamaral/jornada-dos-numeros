@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://dkg5ckcd7kpxy"]
 
-[ext_resource type="Script" path="res://scenes/game_objects/animal.gd" id="1_jl33p"]
-[ext_resource type="Texture2D" uid="uid://dllnub0nexfri" path="res://assets/characters/IdlePig-removebg-preview.png" id="2_17kla"]
+[ext_resource type="Script" path="res://scenes/characters/animal.gd" id="1_jl33p"]
+[ext_resource type="Texture2D" uid="uid://dllnub0nexfri" path="res://assets/characters/pig/IdlePig-removebg-preview.png" id="2_17kla"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xj1nv"]
 atlas = ExtResource("2_17kla")
