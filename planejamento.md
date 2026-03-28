@@ -40,7 +40,7 @@
 > Bugs reais que afetam o comportamento do jogo.
 
 - [x] `scenes/menu/MenuPausa.gd:36` — `==` em vez de `=` (comparação no lugar de atribuição, linha inerte)
-- [x] `scenes/level_selection/mouse_animation.gd:23` — referência a `node_2d.tscn` que não existe no projeto
+- [x] `scenes/level_selection/mouse_animation.gd` — arquivo órfão deletado (referenciava `node_2d.tscn` inexistente)
 - [x] `scenes/level_selection/1.gd:25` — tenta carregar `.gd` como cena (deveria ser `.tscn`)
 - [x] `scenes/intro/voice_selection.gd:34-39` — índice calculado duas vezes, o primeiro cálculo é sobrescrito imediatamente
 
