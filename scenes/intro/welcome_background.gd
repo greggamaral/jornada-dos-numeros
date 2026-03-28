@@ -1,29 +1,22 @@
 extends Node2D
 
-@onready var SceneTransitionAnimation = $"../SceneTransitionAnimation/AnimationPlayer"
-@onready var InitialText = $AnimationPlayer
+@onready var scene_transition_anim = $"../SceneTransitionAnimation/AnimationPlayer"
+@onready var initial_text = $AnimationPlayer
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	SceneTransitionAnimation.play("fade_in")
-	wait(0.5)
-	SceneTransitionAnimation.play("fade_out")
-	wait(0.5)	
-	InitialText.play("fade_in_introduction")
-	wait(10)	
+	scene_transition_anim.play("fade_in")
+	await get_tree().create_timer(0.5).timeout
+	scene_transition_anim.play("fade_out")
+	await get_tree().create_timer(0.5).timeout
+	initial_text.play("fade_in_introduction")
+	await get_tree().create_timer(10).timeout
 	await get_tree().create_timer(8).timeout
 	$"../AudioStreamPlayer2".play()
 	await get_tree().create_timer(8).timeout
-	SceneTransitionAnimation.play("fade_in")
-	wait(0.5)	
+	scene_transition_anim.play("fade_in")
+	await get_tree().create_timer(0.5).timeout
 	get_tree().change_scene_to_file("res://scenes/intro/story.tscn")
-	
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	if Input.is_action_just_pressed("ui_accept"): 
-		get_tree().change_scene_to_file("res://scenes/intro/story.tscn")
-	else: 
-		pass
 
-func wait(seconds: float) -> void:
-	await get_tree().create_timer(seconds).timeout
+func _process(delta):
+	if Input.is_action_just_pressed("ui_accept"):
+		get_tree().change_scene_to_file("res://scenes/intro/story.tscn")
