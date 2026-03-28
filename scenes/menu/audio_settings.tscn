@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://dixbbxuins4ky"]
 
 [ext_resource type="Script" path="res://scenes/menu/audio_settings.gd" id="1_k60yg"]
-[ext_resource type="Texture2D" uid="uid://b36uo5ivo4eem" path="res://assets/menu/Blue.png" id="2_3c3c4"]
+[ext_resource type="Texture2D" uid="uid://b36uo5ivo4eem" path="res://assets/ui/Blue.png" id="2_3c3c4"]
 
 [sub_resource type="Theme" id="Theme_amlqb"]
 default_font_size = 50

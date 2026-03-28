@@ -1,9 +1,9 @@
 [gd_scene load_steps=7 format=3 uid="uid://be2kgwgvjgdfb"]
 
 [ext_resource type="Script" path="res://scenes/levels/fase_animais/intro_animais.gd" id="1_v0t2k"]
-[ext_resource type="Texture2D" uid="uid://d2yeg2w2wx0tx" path="res://assets/background/IntroFaseAnimais.png" id="2_oso13"]
-[ext_resource type="AudioStream" uid="uid://qy3o6yphjfs7" path="res://assets/audio/saudacoes.mp3" id="3_3maa6"]
-[ext_resource type="AudioStream" uid="uid://djhyem2p36mff" path="res://assets/audio/explicarFase.mp3" id="4_vqc0i"]
+[ext_resource type="Texture2D" uid="uid://d2yeg2w2wx0tx" path="res://assets/backgrounds/IntroFaseAnimais.png" id="2_oso13"]
+[ext_resource type="AudioStream" uid="uid://qy3o6yphjfs7" path="res://assets/audio/voice/saudacoes.mp3" id="3_3maa6"]
+[ext_resource type="AudioStream" uid="uid://djhyem2p36mff" path="res://assets/audio/voice/explicarFase.mp3" id="4_vqc0i"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_duj83"]
 bg_color = Color(0, 0, 0, 0.568627)

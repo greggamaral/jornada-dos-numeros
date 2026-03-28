@@ -1,13 +1,13 @@
 [gd_scene load_steps=14 format=3 uid="uid://clnqdp0aeg01b"]
 
 [ext_resource type="Script" path="res://scenes/levels/fase_animais/LevelManager.gd" id="1_ommyh"]
-[ext_resource type="Texture2D" uid="uid://qcnclwul7odb" path="res://assets/background/Summer1.png" id="2_hkykd"]
-[ext_resource type="Script" path="res://scenes/game_objects/Camera2D.gd" id="3_l4uet"]
-[ext_resource type="PackedScene" uid="uid://djt0c3m2mi6a2" path="res://scenes/game_objects/pig.tscn" id="4_082ey"]
-[ext_resource type="PackedScene" uid="uid://dkg5ckcd7kpxy" path="res://scenes/game_objects/piglet.tscn" id="5_2213q"]
-[ext_resource type="Texture2D" uid="uid://dwmw4h0pr54hi" path="res://assets/background/Terrain (16x16).png" id="5_rlleu"]
-[ext_resource type="Script" path="res://scenes/game_objects/Dialogue.gd" id="6_puaqg"]
-[ext_resource type="Texture2D" uid="uid://ceh5dnqb6fopq" path="res://assets/characters/Pig_Avatar.png" id="7_7kulk"]
+[ext_resource type="Texture2D" uid="uid://qcnclwul7odb" path="res://assets/backgrounds/Summer1.png" id="2_hkykd"]
+[ext_resource type="Script" path="res://scenes/shared/Camera2D.gd" id="3_l4uet"]
+[ext_resource type="PackedScene" uid="uid://djt0c3m2mi6a2" path="res://scenes/characters/pig.tscn" id="4_082ey"]
+[ext_resource type="PackedScene" uid="uid://dkg5ckcd7kpxy" path="res://scenes/characters/piglet.tscn" id="5_2213q"]
+[ext_resource type="Texture2D" uid="uid://dwmw4h0pr54hi" path="res://assets/backgrounds/Terrain (16x16).png" id="5_rlleu"]
+[ext_resource type="Script" path="res://scenes/shared/Dialogue.gd" id="6_puaqg"]
+[ext_resource type="Texture2D" uid="uid://ceh5dnqb6fopq" path="res://assets/characters/pig/Pig_Avatar.png" id="7_7kulk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mat0t"]
 texture = ExtResource("5_rlleu")

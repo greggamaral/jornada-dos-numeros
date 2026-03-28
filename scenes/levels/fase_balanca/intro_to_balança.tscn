@@ -1,10 +1,10 @@
 [gd_scene load_steps=13 format=3 uid="uid://3xmulw5ylhli"]
 
 [ext_resource type="Script" path="res://scenes/levels/fase_balanca/intro_to_balança.gd" id="1_v3cna"]
-[ext_resource type="Texture2D" uid="uid://cimt8yj7oljd3" path="res://assets/background/feira_not_blurry.png" id="2_8gx7a"]
-[ext_resource type="Texture2D" uid="uid://cj443a6ktxsb8" path="res://assets/background/blurry_feira.png" id="3_vqf2s"]
-[ext_resource type="Texture2D" uid="uid://bu5xdppofr70q" path="res://assets/characters/wizard.png" id="4_qpbvx"]
-[ext_resource type="AudioStream" uid="uid://brryrimjhrktb" path="res://assets/audio/feira_sounds.mp3" id="5_sk5c6"]
+[ext_resource type="Texture2D" uid="uid://cimt8yj7oljd3" path="res://assets/backgrounds/feira_not_blurry.png" id="2_8gx7a"]
+[ext_resource type="Texture2D" uid="uid://cj443a6ktxsb8" path="res://assets/backgrounds/blurry_feira.png" id="3_vqf2s"]
+[ext_resource type="Texture2D" uid="uid://bu5xdppofr70q" path="res://assets/characters/misc/wizard.png" id="4_qpbvx"]
+[ext_resource type="AudioStream" uid="uid://brryrimjhrktb" path="res://assets/audio/bgm/feira_sounds.mp3" id="5_sk5c6"]
 [ext_resource type="PackedScene" uid="uid://daongao5bnwr" path="res://scenes/intro/transition.tscn" id="6_aogxa"]
 
 [sub_resource type="Animation" id="Animation_s1o6w"]

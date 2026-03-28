@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scenes/intro/story.gd" id="1_6xo87"]
 [ext_resource type="FontFile" uid="uid://571l1nqrtkih" path="res://assets/fonts/CelticHand.ttf" id="2_bwnh5"]
-[ext_resource type="AudioStream" uid="uid://b5iuvm8uc6d1c" path="res://assets/audio/story.mp3" id="3_x0jhr"]
+[ext_resource type="AudioStream" uid="uid://b5iuvm8uc6d1c" path="res://assets/audio/bgm/story.mp3" id="3_x0jhr"]
 [ext_resource type="PackedScene" uid="uid://daongao5bnwr" path="res://scenes/intro/transition.tscn" id="4_wiah2"]
 
 [sub_resource type="Animation" id="Animation_t5ohp"]

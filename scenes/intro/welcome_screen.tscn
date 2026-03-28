@@ -1,11 +1,11 @@
 [gd_scene load_steps=10 format=3 uid="uid://b65s7nerdowwc"]
 
-[ext_resource type="Texture2D" uid="uid://cl8rbsi82eb1d" path="res://assets/background/origbig.png" id="1_rbqm0"]
+[ext_resource type="Texture2D" uid="uid://cl8rbsi82eb1d" path="res://assets/backgrounds/origbig.png" id="1_rbqm0"]
 [ext_resource type="Script" path="res://scenes/intro/welcome_background.gd" id="1_sldop"]
 [ext_resource type="FontFile" uid="uid://571l1nqrtkih" path="res://assets/fonts/CelticHand.ttf" id="2_40llb"]
 [ext_resource type="PackedScene" uid="uid://daongao5bnwr" path="res://scenes/intro/transition.tscn" id="4_mlwcu"]
-[ext_resource type="AudioStream" uid="uid://bme3lb4hfjf24" path="res://assets/audio/wind-chimes-with-wind-and-light-rain-171624.mp3" id="5_s3fuf"]
-[ext_resource type="AudioStream" uid="uid://grcnrwe3v16g" path="res://assets/audio/ttsMP3.com_VoiceText_2024-10-28_21-1-50.mp3" id="6_hl38r"]
+[ext_resource type="AudioStream" uid="uid://bme3lb4hfjf24" path="res://assets/audio/bgm/wind-chimes-with-wind-and-light-rain-171624.mp3" id="5_s3fuf"]
+[ext_resource type="AudioStream" uid="uid://grcnrwe3v16g" path="res://assets/audio/voice/ttsMP3.com_VoiceText_2024-10-28_21-1-50.mp3" id="6_hl38r"]
 
 [sub_resource type="Animation" id="Animation_fka0f"]
 length = 10.0
