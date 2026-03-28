@@ -15,30 +15,22 @@ extends Node2D
 "Mas isso não vai ser um problema para uma pessoa esperta como você! Boa sorte! E TRAGA MEU TROCO!	",
 ]
 
-@onready var Voices=DisplayServer.tts_get_voices_for_language("pt_BR")
-@onready var speaker:String = Voices[Global.selected_voice_id]
+@onready var voices = DisplayServer.tts_get_voices_for_language("pt_BR")
+@onready var speaker: String = voices[Global.selected_voice_id]
 
 var falas_speak = 0
 var first_time = true
-var speak_enum 
 
 func _ready() -> void:
 	if Dialogic.current_timeline != null:
 		return
-	# Tocar som e executar animações em sequência
 	$feira_som.play()
 	$Blurry.play("new_animation")
-		
-	#Deixando Blurry
 	$BlurryFeira.set_visible(true)
-	
-	#Trazendo o Mago
 	$WizardAnimation.play("new_animation")
 	$Wizard.set_visible(true)
-	
-	# Iniciar o diálogo
 	DisplayServer.tts_speak(falas[falas_speak], speaker)
-	falas_speak+=1
+	falas_speak += 1
 	Dialogic.start('intro_balanca')
 	get_viewport().set_input_as_handled()
 
@@ -48,12 +40,9 @@ func _input(event: InputEvent):
 			if falas_speak <= falas.size() - 1:
 				DisplayServer.tts_stop()
 				DisplayServer.tts_speak(falas[falas_speak], speaker, AudioController.volume)
-				falas_speak+=1
+				falas_speak += 1
 			elif (first_time):
 				first_time = false
 	else:
 		Dialogic.end_timeline()
 		get_tree().change_scene_to_file("res://scenes/levels/fase_balanca/balanca.tscn")
-	
-func wait(seconds: float) -> void:
-	await get_tree().create_timer(seconds).timeout		

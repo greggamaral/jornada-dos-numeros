@@ -53,7 +53,7 @@ func _set_focus_to_current():
 		
 func load_level(current_index: int):
 	if current_index == 1:
-		get_tree().change_scene_to_file("res://scenes/levels/fase_balanca/intro_to_balança.tscn")
+		get_tree().change_scene_to_file("res://scenes/levels/fase_balanca/intro_to_balanca.tscn")
 	elif current_index == 2:
 		get_tree().change_scene_to_file("res://scenes/levels/fase_bau/Trunk_Puzzle_Introduction.tscn")
 	elif current_index == 3:

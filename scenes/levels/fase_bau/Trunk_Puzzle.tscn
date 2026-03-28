@@ -1,6 +1,6 @@
 [gd_scene load_steps=20 format=3 uid="uid://byvj7v3gckdtu"]
 
-[ext_resource type="Script" path="res://scenes/levels/fase_bau/World.gd" id="1_jjxra"]
+[ext_resource type="Script" path="res://scenes/levels/fase_bau/trunk_puzzle.gd" id="1_jjxra"]
 [ext_resource type="Texture2D" uid="uid://ktbwckpnwub1" path="res://assets/backgrounds/Wood.png" id="2_173lg"]
 [ext_resource type="AudioStream" uid="uid://c263thrhuao60" path="res://assets/audio/bgm/adventure_time.mp3" id="3_phgk4"]
 [ext_resource type="Texture2D" uid="uid://dv7cps4lk8eay" path="res://assets/ui/Box.png" id="4_erlyc"]
